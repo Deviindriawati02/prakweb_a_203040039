@@ -50,7 +50,7 @@ function hapus($id)
 function ubah($data)
 {
     $conn = koneksi();
-    $id = htmlspecialchars($data["id"]);
+    $id = htmlspecialchars($data["id_buku"]);
     $nama = htmlspecialchars($data["nama"]);
     $gambar = htmlspecialchars($data["gambar"]);
     $penulis = htmlspecialchars($data["penulis"]);
