@@ -88,6 +88,7 @@ function tambah($data)
     $nama = htmlspecialchars($data["nama"]);
     $gambar = htmlspecialchars($data["gambar"]);
     $penulis = htmlspecialchars($data["penulis"]);
+    $tahun_terbit = htmlspecialchars($data["tahun terbit"]);
     // $poster = htmlspecialchars($data["poster"]);
     // upload gambar
     $gambar = upload();
