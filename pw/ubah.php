@@ -51,13 +51,13 @@ if (isset($_POST['ubah'])) {
                             <h5 style="text-align: center;">Form Ubah Data</h5>
 
                             <div class="input-field">
-                                <input type="text" name="nama" id="nama" required value="<?= $tp['nama']; ?>">
-                                <label for="nama" class="active">Nama</label>
+                                <input type="text" name= "judul_buku" id="judul_buku" required value="<?= $tp['judul_buku']; ?>">
+                                <label for="judul_buku" class="active">Judul</label>
                             </div>
 
                             <div class="input-field">
                                 <input type="text" name="gambar" id="gambar" required value="<?= $tp['gambar']; ?>">
-                                <label for="gambar" class="active">Foto</label>
+                                <label for="gambar" class="active">gambar</label>
                             </div>
 
                             <div class="input-field">

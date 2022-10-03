@@ -52,7 +52,7 @@ $buku = $rows;
 <td><img src="gambar/<?= $row["gambar"]; ?>" alt="" width="100"></td>
         <td>
             <button>
-              <div class="update"><a href="ubah.php?= $tp['id']; ?>">Ubah</a></div>
+              <div class="update"><a href="ubah.php?= $result['id'];?>">Ubah</a></div>
             </button>
             <button>
               <div class="delete"><a href="hapus.php? $tp['id']; ?>" onclick="return confirm('Hapus Data??')">Hapus</a></div>
