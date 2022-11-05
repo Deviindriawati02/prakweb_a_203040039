@@ -1,0 +1,23 @@
+/* tombol */
+.tombol-ubah {
+    background-color: green;
+}
+
+.tombol-hapus {
+    background-color: red;
+}
+
+.tambah {
+    background-color: yellow;
+}
+
+/* container  */
+.container {
+    text-align: center;
+}
+
+/* table */
+.table {
+    background-color: azure;
+}
+
